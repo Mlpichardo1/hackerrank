@@ -1,3 +1,6 @@
+// On a new line for each query, print Not found if the name has no corresponding entry 
+// in the phone book; otherwise, print the full  and  in the format name=phoneNumber.
+
 function processData(input) {
     var arr = input.split('\n');
     var phoneBook = {};
@@ -28,6 +31,8 @@ function processData(input) {
 }
 }
 }
+
+////////////// below was already provided
 process.stdin.resume();
 process.stdin.setEncoding("ascii");
 _input = "";
